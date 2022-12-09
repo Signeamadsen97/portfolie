@@ -8,3 +8,12 @@ body{
     background-position: center;
 }
 
+.container{
+    position: relative;
+    margin-top: 60px;
+}
+
+nav{
+    
+}
+
