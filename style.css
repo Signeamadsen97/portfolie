@@ -8,6 +8,7 @@ body{
     background-position: center;
 }
 
+/* navigation styling start*/
 nav{
     font-family: 'Montserrat', sans-serif;
     position: fixed;
@@ -28,9 +29,6 @@ header .logo{
     align-items: center;
 }
 
-header .logo:hover{
-    color: white;
-}
 
 nav .links{
     float: right;
@@ -45,13 +43,16 @@ nav .links{
 }
 .navigation ul{
     list-style: none;
-    
 }
 
 nav .links a{
     display: block;
     color: #A15A33;
     text-decoration: none;
+}
+
+.logo a:hover{
+    color: white;
 }
 
 nav ul li a:hover{
@@ -69,8 +70,8 @@ nav ul li a:hover{
        display: flex;
        justify-content: space-between;
     }
- 
 }
+
 
 @media  screen and (max-width: 500px){
     nav .links{
@@ -79,7 +80,7 @@ nav ul li a:hover{
 
     }
 }
-    
+/* navigation styling end*/     
 
 
 
