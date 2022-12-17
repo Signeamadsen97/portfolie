@@ -82,9 +82,52 @@ nav ul li a:hover{
 }
 /* navigation styling end*/     
 
+/*main content*/
 
+.profil{
+    margin-top: 150px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
 
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #A15A33;
+}
 
+p{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    color: #A15A33;
+}
+
+button{
+    background-color: #A15A33;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 12px;
+}
+
+.kontakt a{
+    color: #e1d7cc;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #A15A33;
+}
+
+/*main content end*/
 
   
    
