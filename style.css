@@ -82,10 +82,10 @@ nav ul li a:hover{
 }
 /* navigation styling end*/     
 
-/*main content*/
+/*main index content*/
 
 .profil{
-    margin-top: 150px;
+    margin-top: 100px;
     width: 500px;
     height: auto;
     display: flex;
@@ -102,6 +102,7 @@ p{
     font-family: 'montserrat', sans-serif;
     font-weight: 300;
     color: #A15A33;
+    font-size: 15px;
 }
 
 button{
@@ -114,7 +115,7 @@ button{
 }
 
 .kontakt a{
-    color: #e1d7cc;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     font-family: 'montserrat', sans-serif;
@@ -144,15 +145,8 @@ h2{
 .ur-serie img{
     width: 400px;
     height: auto;
+    margin-top: 30px;
     border-radius: 20px;
-}
-
-
-.se-mere a{
-   font-family: 'montserrat', sans-serif;
-   color: #A15A33;
-   font-size:  1.1em;
-   font-weight: 500;
 }
 
 .flexbox1{
@@ -161,23 +155,148 @@ h2{
     align-items: center;
 }
 
-div .information
 
-p{
-    font-size: 30px;
+.se-mere a{
+   font-family: 'montserrat', sans-serif;
+   color: #A15A33;
+   font-size:  1.1em;
+   font-weight: 500;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
+.copyright{
+    color: #A15A33;
+    font-family: 'montserrat', sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+@media screen and (min-width: 700px){
+    .flexbox1{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 
-/*main content end*/
+    .information{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .flex1{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+}
+/*main content index end*/
 
   
-   
+/* om mig content styling start*/
+
+h3{
+    font-family: 'montserrat', sans-serif;
+    color: #A15A33;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.om-mig{
+    font-family: 'montserrat', sans-serif;
+    color: #A15A33;
+    font-weight: 300;
+    font-size: 15px;
+    background-color: #e1d7cc;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+/* om mig content styling end*/
+
+
+
+
+/*portfolie styling start*/
+
+.projekt-plakat img{
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.salomonsen img{
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.logo-spin img{
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+/*portfolie styling end*/
+
+
 
   
+/*kontakt styling start*/
 
+.logo1 img{
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
 
+.kontakt-tekst p{
+    text-align: left;
+    line-height: 1.8;'
+}
 
+@media screen and {min-width: 700px){
+    .logo1 img .kontakt-tekst p{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .flex2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+/*kontakt styling end*/
 
 
