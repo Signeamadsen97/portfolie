@@ -97,7 +97,6 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #A15A33;
-    margin-left: 47px;
 }
 
 p{
@@ -105,7 +104,7 @@ p{
     font-weight: 300;
     color: #A15A33;
     font-size: 15px;
-    margin-left: 47px;
+
 }
 
 button{
@@ -115,7 +114,6 @@ button{
     display: inline-block;
     padding: 15px 30px;
     border-radius: 20px;
-    margin-left: 47px
 }
 
 .kontakt a{
@@ -126,11 +124,15 @@ button{
     font-weight: 500;
 }
 
+.projects{
+    margin-top: 150px;
+}
+
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #A15A33;
-    margin-left: 47px
+    margin-left: 50px
 }
 
 .mockup img{
@@ -208,6 +210,11 @@ h2{
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
+        margin-top: 50px;
+    }
+
+    .about{
+        margin-top: 15%;
     }
 
 }
