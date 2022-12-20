@@ -59,32 +59,26 @@ nav ul li a:hover{
     color: white;
 }
 
-
-@media screen and (max-width: 750px){
-    nav .logo{
-        width: auto;
-        justify-content: center;
-
-    }
-    nav .links{
-       display: flex;
-       justify-content: space-between;
-       
-    }
+nav .logo{
+    width: auto;
+    justify-content: center;
+}
+nav .links{
+    display: flex;
+    justify-content: space-between;
 }
 
 
-@media  screen and (max-width: 500px){
-    nav .links{
+/*nav .links{
         display: flex;
         flex-direction: column;
-
     }
-}
+
 /* navigation styling end*/     
 
-/*main index content*/
 
+
+/*main index content*/
 .profil{
     margin-top: 100px;
     width: 500px;
@@ -116,7 +110,7 @@ button{
     border-radius: 20px;
 }
 
-.kontakt a{
+.kontakt-knap a{
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -124,18 +118,33 @@ button{
     font-weight: 500;
 }
 
+.flex1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.about{
+    margin-top: 15%;
+    margin-right: 50px;
+}
+
 .projects{
     margin-top: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #A15A33;
-    margin-left: 50px
 }
 
-.mockup img{
+
+.mockup img {
     width: 400px;
     height: auto;
     border-radius: 20px;
@@ -173,12 +182,19 @@ h2{
    align-items: center;
 }
 
-.information{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.se-mere{
+    margin-bottom: 50px;
 }
 
+.information{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
 
 .copyright{
     color: #A15A33;
@@ -189,39 +205,19 @@ h2{
     align-items: center;
 }
 
-@media screen and (min-width: 700px){
-    .flexbox1{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
 
-    .information{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-around;
-    }
 
-    .flex1{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin-top: 50px;
-    }
-
-    .about{
-        margin-top: 15%;
-    }
-
-}
 /*main content index end*/
 
   
 /* om mig content styling start*/
+.profil-om-mig{
+    margin-top: 0px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
 h3{
     font-family: 'montserrat', sans-serif;
@@ -246,6 +242,25 @@ h3{
     padding: 10px;
     line-height: 1.8;
 }
+
+.kontakt-knap2{
+    background-color: #A15A33;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.kontakt-knap2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
 /* om mig content styling end*/
 
 
@@ -288,13 +303,121 @@ h3{
     align-items: center;
 }
 
-.kontakt-tekst p{
-    text-align: left;
-    line-height: 1.8;'
+.kontakt-tekst h4{
+    font-family: 'montserrat', sans-serif;
+    color: #A15A33;
+    font-weight: 500;
+    font-size: 20px;
 }
 
+.kontakt-tekst p{
+    margin-top: 40px;
+    text-align: left;
+    line-height: 1.8;'
+  
+}
+
+.information-kontakt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
 
 
 /*kontakt styling end*/
 
 
+/* RESPONSIV TABLET */
+
+@media (max-width: 768px) {
+    .profil{
+        width: 360px;
+    }
+
+    .projects{
+        margin-left: 280px;
+    }
+    .projects h2{
+        margin-left: 0px;
+    }
+    .profil-om-mig{
+        margin-top: -1px;
+        width: 360px;
+    }
+
+
+}
+
+
+/* RESPONSIV MOBIL */
+@media (max-width: 480px) {
+
+    .flex1{
+        display: flex;
+        flex-direction: column;
+    align-items: flex-start;
+    }
+
+
+    .about{
+        margin-left: 20px;
+    }
+    .projects{
+        margin-left: 0px;
+    }
+    .projects h2{
+        margin-left: 10px;
+    }
+    .mockup img{
+        max-width: 300px;
+    }
+    .portræt img{
+        max-width: 300px;
+    }
+    .ur-serie img{
+        max-width: 300px;
+        margin-left: 10px;
+    }
+
+    .projekt-plakat img{
+        max-width: 300px;
+    }
+
+    .salomonsen img{
+        max-width: 300px;
+    }
+    .logo-spin img{
+        max-width: 300px;
+    }
+
+    .flexbox1{
+        flex-direction: column;
+    }
+    .information{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+    }
+    .information{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+    }
+    .kontakt-tekst{
+        margin-left: 10px;
+    }
+
+    .information-kontakt{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+    }
+}
